@@ -39,6 +39,9 @@ use SevenShores\Hubspot\Http\Client;
  */
 class Factory
 {
+    /** @var Client */
+    public $client;
+    
     /**
      * C O N S T R U C T O R ( ^_^)y
      *
